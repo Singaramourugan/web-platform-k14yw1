@@ -1,0 +1,69 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set body font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 14px;
+}
+
+/* Style the main content */
+main {
+  margin: 20px;
+}
+
+.introduction, .section-1, .section-2, .third-section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction p {
+  margin-bottom: 10px;
+}
+
+.section-1 h2, .section-2 h2, .third-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.section-1 p, .section-2 pre, .third-section p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.section-2 pre {
+  background-color: #f8f8f8;
+  padding: 10px;
+  font-size: 12px;
+  overflow-x: auto;
+}
+
+/* Style the images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
